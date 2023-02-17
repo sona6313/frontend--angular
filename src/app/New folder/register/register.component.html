@@ -1,0 +1,25 @@
+
+<header class="main">
+ 
+      <aside class="ee">
+        <form  [formGroup]="RegisterForm" (ngSubmit)="onSubmit( RegisterForm.value)" class="rr">
+        <h1 class="cen">Register</h1>
+        <label class="cen">Username</label>
+        <input type="email" value=""  class="form-control" formControlName="name" placeholder="Enter  name">
+        <label class="cen">email</label>
+        <input type="email" value=""  class="form-control" formControlName="email" placeholder="Enter Email">
+        <label class="cen">password </label>
+        <input type="password" value=""  class="form-control"  formControlName="password" placeholder="Enter   Password">
+        <label class="cen">confirm password</label>
+        <input type="password" value=""  class="form-control"  formControlName="confirm" placeholder="Enter  Confirm Password">
+        <label class="cen">phone number</label>
+        <input type="text" value=""  class="form-control" formControlName="num" placeholder="Enter  Phone number">
+        <br>
+        <!-- <a href="/"  class="lo">Login </a> -->
+        <button class="butm" type="submit" >Submit</button>
+       
+      <!-- </form> -->
+</form>
+
+</aside>
+</header>

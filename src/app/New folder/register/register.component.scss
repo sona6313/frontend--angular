@@ -1,0 +1,57 @@
+
+.main{
+
+  background-image: url('../../../assets/v.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ color: aliceblue;
+
+    .ee{
+flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 59rem;
+      height:40rem;
+      color: rgb(231, 234, 236);
+     
+     
+    }
+  
+  .rr{
+    // left: 70px;
+ 
+      justify-content: center;
+    border-style: none;
+    width: 39%;
+    height: 49%;
+    // box-shadow: 0 0px  6px 0px;
+      border-radius: 1rem;
+      // height: 33rem;
+
+      .cen{
+        display: flex;
+        align-items: center;
+        font-size: 130%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        justify-content: center;
+      }
+     
+      .butm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 1rem;
+        width: 10rem;
+        height: 3rem;
+      
+        
+      
+       }
+
+  }
+  }
