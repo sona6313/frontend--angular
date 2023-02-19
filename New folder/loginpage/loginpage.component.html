@@ -1,0 +1,36 @@
+<header class="main">
+  <aside class="ee">
+    <aside class="form">
+   
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+        <h1 class="cen">Login</h1>
+        <label class="cen">Username</label>
+        <input
+          type="text"
+          value=""
+          class="form-control"
+          formControlName="name" placeholder="Enter  name"
+        />
+        <label class="cen">email</label>
+        <input
+          type="email"
+          value=""
+          class="form-control"
+          formControlName="email" placeholder="Enter Email"
+        />
+        <label class="cen">password </label>
+        <input
+          type="password"
+          value=""
+          class="form-control"
+          formControlName="password"  placeholder="Enter   Password"
+        />
+
+     
+        <button class="but" type="submit">Submit</button>
+        <a href="/forget">Forgotten Password </a><br>
+        <a href="/register">Register now</a>
+      </form>
+    </aside>
+  </aside>
+</header>
